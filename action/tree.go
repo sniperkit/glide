@@ -4,9 +4,9 @@ import (
 	"container/list"
 	"os"
 
-	"github.com/Masterminds/glide/msg"
-	"github.com/Masterminds/glide/tree"
-	"github.com/Masterminds/glide/util"
+	"github.com/sniperkit/glide/msg"
+	"github.com/sniperkit/glide/tree"
+	"github.com/sniperkit/glide/util"
 )
 
 // Tree prints a tree representing dependencies.

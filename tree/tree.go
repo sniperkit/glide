@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Masterminds/glide/dependency"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/util"
+	"github.com/sniperkit/glide/dependency"
+	"github.com/sniperkit/glide/msg"
+	gpath "github.com/sniperkit/glide/path"
+	"github.com/sniperkit/glide/util"
 )
 
 // Display displays a tree view of the given project.

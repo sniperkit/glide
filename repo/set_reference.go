@@ -3,10 +3,10 @@ package repo
 import (
 	"sync"
 
-	"github.com/Masterminds/glide/cache"
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/msg"
 	"github.com/codegangsta/cli"
+	"github.com/sniperkit/glide/cache"
+	"github.com/sniperkit/glide/cfg"
+	"github.com/sniperkit/glide/msg"
 )
 
 // SetReference is a command to set the VCS reference (commit id, tag, etc) for

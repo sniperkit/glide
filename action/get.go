@@ -5,14 +5,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Masterminds/glide/cache"
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/godep"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/repo"
-	"github.com/Masterminds/glide/util"
 	"github.com/Masterminds/semver"
+	"github.com/sniperkit/glide/cache"
+	"github.com/sniperkit/glide/cfg"
+	"github.com/sniperkit/glide/godep"
+	"github.com/sniperkit/glide/msg"
+	gpath "github.com/sniperkit/glide/path"
+	"github.com/sniperkit/glide/repo"
+	"github.com/sniperkit/glide/util"
 )
 
 // Get fetches one or more dependencies and installs.

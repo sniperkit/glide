@@ -12,12 +12,12 @@ import (
 	"sort"
 	"strings"
 
-	cp "github.com/Masterminds/glide/cache"
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
 	"github.com/Masterminds/semver"
 	v "github.com/Masterminds/vcs"
+	cp "github.com/sniperkit/glide/cache"
+	"github.com/sniperkit/glide/cfg"
+	"github.com/sniperkit/glide/msg"
+	gpath "github.com/sniperkit/glide/path"
 )
 
 // VcsUpdate updates to a particular checkout based on the VCS setting.

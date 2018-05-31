@@ -11,16 +11,16 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Masterminds/glide/cache"
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/dependency"
-	"github.com/Masterminds/glide/importer"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/util"
 	"github.com/Masterminds/semver"
 	"github.com/Masterminds/vcs"
 	"github.com/codegangsta/cli"
+	"github.com/sniperkit/glide/cache"
+	"github.com/sniperkit/glide/cfg"
+	"github.com/sniperkit/glide/dependency"
+	"github.com/sniperkit/glide/importer"
+	"github.com/sniperkit/glide/msg"
+	gpath "github.com/sniperkit/glide/path"
+	"github.com/sniperkit/glide/util"
 )
 
 // Installer provides facilities for installing the repos in a config file.

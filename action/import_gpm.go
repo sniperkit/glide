@@ -1,8 +1,8 @@
 package action
 
 import (
-	"github.com/Masterminds/glide/gpm"
-	"github.com/Masterminds/glide/msg"
+	"github.com/sniperkit/glide/gpm"
+	"github.com/sniperkit/glide/msg"
 )
 
 // ImportGPM imports a GPM file.
